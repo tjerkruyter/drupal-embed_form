@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains embed_form.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function embed_form_help($route_name, RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        // Main module help for the embed_form module.
+        case 'help.page.embed_form':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('Embed forms in Twig templates') . '</p>';
+            return $output;
+        
+        default:
+    }
+}

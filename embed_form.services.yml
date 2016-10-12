@@ -1,0 +1,5 @@
+services:
+  embed_form.twig.embed_form_extension:
+    class: Drupal\embed_form\Twig\EmbedFormExtension
+    tags:
+      - { name: twig.extension }

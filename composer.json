@@ -1,0 +1,14 @@
+{
+  "name": "drupal/embed_form",
+  "type": "drupal-module",
+  "description": "Embed forms in Twig templates",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/embed_form",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/embed_form",
+    "source": "http://cgit.drupalcode.org/embed_form"
+  },
+  "require": { }
+}
