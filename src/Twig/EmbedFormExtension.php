@@ -8,6 +8,8 @@
 
 namespace Drupal\embed_form\Twig;
 
+use Drupal\contact\Entity\ContactForm;
+
 
 /**
  * Class EmbedFormExtension
